@@ -1,4 +1,4 @@
-# End-to-End-Solution-in-AWS
+# Creation of VPC with EC2 with web server launch template & S3 for staic website.
 #The goal is to configure a repeatable environment for a publicly available website by using Amazon S3 and EC2 services.
 
 #1   Create a Virtual Private Cloud (VPC) environment for the EC2 instances.
