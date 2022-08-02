@@ -1,0 +1,3 @@
+Create a security group "SG_LB in prebuilt "VPC 1" with a description "Allow HTTP", and allow inbound HTTP traffic from anywhere over IPV4.
+Create a security group "SG_ASG" for the Auto Scaling Group in prebuilt "VPC 1" with a description "Allow HTTP", and allow inbound HTTP traffic from "SG_LB" security group.
+Create a security group "SG_DB" for the database server in prebuilt "VPC 1" with a description "Allow MySQL", and allow inbound MySQL/Aurora traffic from "SG_ASG" security group.             
