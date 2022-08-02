@@ -1,0 +1,17 @@
+Network ACL for load balancer "ACL_LB"
+Create a NACL named "ACL_LB" in "VPC 1".
+3 inbound rules:
+Rule#   TYpe        Port Range
+100     HTTP        80
+200     HTTPS       443
+300     Custom TCP  1024-65536
+
+1 outbound rule:
+100     All Traffic
+
+Subnet Association:
+Public Subnet 1
+Public Subnet 2
+
+TO "ACL_LB"
+
