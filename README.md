@@ -8,3 +8,15 @@
 #3 Create a launch template using Amazon EC2 with an Auto Scaling group and an Application Load Balancer that includes the web server engine and an initial homepage for the website.
 
 #4 Create a CloudWatch Dashboard to monitor generated activities.
+
+AWS services and tools used:
+. VPC 
+. Security group
+. Network ACL
+. RDS DB instance
+ . EC2
+. Auto scaling group
+. Application load balancer
+. Launch template
+. CloudWatch
+. Subnet group
