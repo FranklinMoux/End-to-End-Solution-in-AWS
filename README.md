@@ -1,5 +1,4 @@
 # Create a scalable website with a backend database and a dashboard for monitoring. 
-#The goal is to configure a repeatable environment for a publicly available website by using Amazon S3 and EC2 services.
 
 #1 Create a security groups and Network ACLs in a VPC.
 
