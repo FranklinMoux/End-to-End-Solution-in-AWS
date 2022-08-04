@@ -1,0 +1,5 @@
+Create a Subnet Group "Subnet_DB"
+Description "Subnet for database"
+In "VPC 1" 
+2 Availabiltity Zones: 
+2 Subnets : 10.0.6.0/23 & 10.0.8.0/23
