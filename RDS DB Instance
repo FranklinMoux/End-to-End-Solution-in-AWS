@@ -1,0 +1,17 @@
+Creation of a RDS DB instance with the following values:
+Setting :                       Value
+Creation method:                Standard create
+Engine type:                    MySQL     
+Templates:                      Production
+Availability and durability:    Multi-AZ instance
+DB instance identifier:         DB_demo  
+Master username:                admin
+Master password:                DBpassword
+DB instance class:              Burstable class - db.t2.micro
+                                Include previous generation classes
+Storage type:                   General Purposes SSD (gp2)
+Virtual private Cloud:          VPC 1
+Subnet group:                   Subnet_DB
+VPC security group:             SG_DB
+Initial database name:          DATA_demo
+Enable enhanced monitoring:     off
