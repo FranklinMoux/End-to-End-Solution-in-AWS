@@ -15,3 +15,7 @@ Subnet group:                   Subnet_DB
 VPC security group:             SG_DB
 Initial database name:          DATA_demo
 Enable enhanced monitoring:     off
+Enable deletion protection      off
+
+RDS DB Instance endpoint:       
+
