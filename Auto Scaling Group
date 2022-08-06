@@ -1,0 +1,17 @@
+Create ASG:
+Property                    Value
+Auto scaling group name     ASG_Web
+Launch template             ASG_Template
+VPC                         VPC 1
+
+Attach ASG to new load balancer:
+load balancer type          Application Load balancer
+Load balancer name          LB_ASG
+Load balancer scheme        Internet-facing
+Availability Zones & subnet Public subnets
+Default routing             Create a target group   
+New target group name       TG_ASG
+Health checks               ELB
+
+Configure group size and scaling policies:
+Load balancer type          Application load Balancer
