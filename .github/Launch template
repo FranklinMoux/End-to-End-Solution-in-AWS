@@ -1,0 +1,9 @@
+Property                Value
+Launch template name    Template_ASG
+AMI                     Amazon Linux 2 AMI(HVM) - Kernel 5.10, SSD Volume Type
+Architecture            64-bit (x86)
+Instance Type           t2.micrd
+Security Groups         SG_ASG
+IAM Instance Profile    SSMInstanceProfile
+
+Data script:
