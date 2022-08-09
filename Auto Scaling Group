@@ -14,4 +14,10 @@ New target group name       TG_ASG
 Health checks               ELB
 
 Configure group size and scaling policies:
-Load balancer type          Application load Balancer
+Desired capacity            2
+Minimum capacity            2
+Maximum capacity            4
+Scaling Policies            Target tracking scaling policy
+Target value                80
+Tag key                     Name
+Tag value                   ASG Web_Server
