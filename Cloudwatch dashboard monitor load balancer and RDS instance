@@ -1,0 +1,9 @@
+Create Cloudwatch dashboard: "Dashboard_Website"
+(1) Line widget: "Load balancer traffic" metrics based
+(2) ApplicationELB->Per AppELB Metrics->RequestCount and TargetResponseTime metrics for "LB_ASG" load balancer
+(3) Line widget: "Database metrics"
+                  RDS->Per-Database Metrics->CPUUtilization, ReadLatency, WriteLatency, ReadIOPS, and WriteIOPS for "DB_Demo"
+
+Connect to: http://<DNS_ALB Name>/locations.php and refresh 30-40 times to help registering some activites on load balancer and database.
+Add a few records to the database.
+View the CloudWatch dashboard with the updated widgets.
