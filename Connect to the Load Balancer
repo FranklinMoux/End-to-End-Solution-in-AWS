@@ -1,0 +1,13 @@
+DNS address of LB_ASG (load balancer)
+DNS Name:
+
+In browser go to: http://<ALB_DNS Name>
+When refreshing the page, the two IP addresses will cycle
+
+Connect to locations.php webpage at: http://<ALB_DNS Name>/location.php
+
+Then add the new record with the following values:
+Field           Value
+City            Dallas
+State           TX
+Zip             75201
