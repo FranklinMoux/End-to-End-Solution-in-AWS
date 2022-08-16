@@ -8,14 +8,14 @@
 
 * 4 Create a CloudWatch Dashboard to monitor generated activities for the Webserver and database.
 
-AWS services and tools used:
-  - VPC 
-  - Security group
-  - Network ACL
-  - RDS DB instance
-  - EC2
-  - Auto scaling group
-  - Application load balancer
-  - Launch template
-  - CloudWatch
-  - Subnet group
+* AWS services and tools used:
+    - VPC 
+    - Security group
+   - Network ACL
+   - RDS DB instance
+   - EC2
+   - Auto scaling group
+   - Application load balancer
+   - Launch template
+   - CloudWatch
+    - Subnet group
