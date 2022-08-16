@@ -1,4 +1,4 @@
-# Create a scalable website with a backend database and a dashboard for monitoring. 
+# Create a scalable website with a backend database, dashboards for instances and costs monitoring, and AWS Cost optimization services and tools. Then make architectural changes to bring value of the cloud using the discoverd metrics and AWS services.
 
 * 1-> Create security groups, Network ACLs, a database subnet group in a VPC.
 
@@ -8,9 +8,10 @@
 
 * 4-> Create a CloudWatch Dashboard to monitor generated activities for the Webserver and database.
 
-* AWS services and tools used:
-    - VPC 
-    - Security group
+
+## AWS services and tools used:
+   - VPC 
+   - Security group
    - Network ACL
    - RDS DB instance
    - EC2
@@ -18,4 +19,8 @@
    - Application load balancer
    - Launch template
    - CloudWatch
-    - Subnet group
+   - Subnet group
+   - AWS Cost Explorer
+   - AWS Cost and Usage Reports
+   - AWS Generated Cost Allocation Tags
+   - AWS Trusted Advisor
