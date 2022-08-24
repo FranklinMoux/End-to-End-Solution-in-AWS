@@ -6,6 +6,9 @@
 * 5-> Create a CloudWatch Dashboard to monitor generated activities for the Webserver and database.
 * 6-> Generate activites within the services.
 * 7-> Analyze for cloud cost recommendations using AWS Trusted Advisor, AWS Cost Explorer, and AWS Cost and usage reports
+* 8-> Use Terraform and AWS CloudFormation to reproduce the same architecture and analyze costs differences.
+* 9-> Make necessary changes to maximize cloud costs while adhering to the pillars of well-architect frameworks.
+* 10-> Comparaison of the 3 methods of cloud architecture configuration and their impact on cloud costs.
 ##
 ## AWS services and tools used:
    - VPC 
@@ -22,3 +25,5 @@
    - AWS Cost and Usage Reports
    - AWS Generated Cost Allocation Tags
    - AWS Trusted Advisor
+   - AWS CloudFormation
+   - Terraform
